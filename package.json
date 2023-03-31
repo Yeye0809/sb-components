@@ -21,7 +21,8 @@
     "start": "start-storybook -p 6006",
     "build": "build-storybook",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=f3902b6c94d4"
   },
   "eslintConfig": {
     "extends": [
@@ -44,16 +45,19 @@
   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@storybook/addon-actions": "^6.5.16",
-    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-essentials": "^6.4.22",
     "@storybook/addon-interactions": "^6.5.16",
     "@storybook/addon-links": "^6.5.16",
     "@storybook/addon-postcss": "^2.0.0",
     "@storybook/builder-webpack4": "^6.5.16",
     "@storybook/manager-webpack4": "^6.5.16",
-    "@storybook/react": "^6.5.16",
+    "@storybook/react": "^6.1.21",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
+    "chromatic": "^6.17.2",
     "css-loader": "^6.7.3",
     "postcss": "^8.4.21"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "my-storybook@0.1.0"
 }
